@@ -1,7 +1,6 @@
 import { useRouter } from "next/router";
 const ShopPage = () => {
     const { query } = useRouter();  // Query Adalah parameter dari userouter 
-    console.log(query)
     return (
         <div>
             <h1>Detail Product</h1>
