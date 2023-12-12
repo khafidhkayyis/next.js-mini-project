@@ -5,7 +5,7 @@ const DetailProductPage = () => {
     return (
         <div>
             <h1>Detail Product</h1>
-            <p>Product : {query.id} </p> {/* text id mengikuti nama file yang didalam kurung [] */}
+            <p>Product : {query.product} </p> {/* text id mengikuti nama file yang didalam kurung [] */}
         </div>
     )
 }
